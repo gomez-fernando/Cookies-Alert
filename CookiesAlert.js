@@ -3,11 +3,6 @@
 *       Display an alert about cookies and privacy policy
 *       By: @betoayesa (twitter)
 *
-*
-*       No jQuery used. LocalStorage support to hide alert after 3 times showed. It can work anyway.
-*
-*
-*
 */
 var CookiesAlert = {
     visits: 0,
