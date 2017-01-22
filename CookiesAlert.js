@@ -36,7 +36,6 @@ var CookiesAlert = {
         var self = this;
         // onClick removes alert and set visits to self.maxVisits
         var content = '<div id="cookiesAlert" style="'+self.style+'">'+self.message+' <a class="btn btn-success" id="closeCookiesAlert" onClick="localStorage.setItem(\'visits\','+self.maxVisits+');var elem = document.getElementById(\'cookiesAlert\');elem.parentNode.removeChild(elem);">'+self.closeLabel+'</a></div>';
-        
-       document.write(content);        
+        document.write(content);        
     }
 }.init();
